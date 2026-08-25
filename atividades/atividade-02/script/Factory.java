@@ -11,7 +11,7 @@ public class Factory
 		Buffer server = new BoundedBuffer();
 
       		// now create the producer and consumer threads
-			System.out.println("Aluno: Gabriel Leite Pasqualli");
+			System.out.println("Aluno: Diego Sales Novelli");
       		Thread producerThread = new Thread(new Producer(server));
       		Thread consumerThread = new Thread(new Consumer(server));
       
